@@ -1,10 +1,10 @@
 import requests
+from bs4 import BeautifulSoup
 from termcolor import colored
 import re
 import whois
 import socket
 import argparse
-from bs4 import BeautifulSoup
 import dns.resolver
 
 
