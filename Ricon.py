@@ -8,16 +8,16 @@ import argparse
 from termcolor import colored
 
 
-parser = argparse.ArgumentParser(description='Process some inputs.')
-parser.add_argument('--tag', type=str, help='process a number')
-parser.add_argument('--sub', type=str, help='process a number')
-parser.add_argument('--cod', type=str, help='process a number')
-parser.add_argument('--title', type=str, help='process a number')
-parser.add_argument('--whoiss', type=str, help='process a number')
-parser.add_argument('--emile', type=str, help='process a number')
-parser.add_argument('--phone', type=str, help='process a number')
-parser.add_argument('--ip', type=str, help='process a number')
-parser.add_argument('--ports', type=str, help='process a number')
+parser = argparse.ArgumentParser(description='Project Ricon.py')
+parser.add_argument('--tag', type=str, help='Please put your url with HTTPS')
+parser.add_argument('--sub', type=str, help='Please enter your site without using HTTPS')
+parser.add_argument('--cod', type=str, help='Please put your url with HTTPS')
+parser.add_argument('--title', type=str, help='Please put your url with HTTPS')
+parser.add_argument('--whoiss', type=str, help='Please put your url with HTTPS')
+parser.add_argument('--emile', type=str, help='Please put your url with HTTPS')
+parser.add_argument('--phone', type=str, help='Please put your url with HTTPS')
+parser.add_argument('--ip', type=str, help='Please enter the desired IP address')
+parser.add_argument('--ports', type=str, help='Please enter the desired IP address')
 args = parser.parse_args()
 if args.tag is not None:
     v = str(args.tag)
