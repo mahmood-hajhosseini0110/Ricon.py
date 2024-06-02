@@ -28,7 +28,7 @@ if args.tag is not None:
     e = []
     i = 0
     for q in a:
-        w.insert(i, q)
+        w.insert(i , q)
         i+=1
         sdc = open("tag.txt", "a+")
         sdc.write(str(q))
