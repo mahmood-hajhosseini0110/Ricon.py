@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
-from termcolor import colored
-import re
+import dns.resolver
 import whois
 import socket
+import re
 import argparse
-import dns.resolver
+from termcolor import colored
 
 
 parser = argparse.ArgumentParser(description='Process some inputs.')
